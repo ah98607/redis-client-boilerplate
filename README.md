@@ -6,3 +6,5 @@
     * list: "latest" something (like news feed), message queue
     * set: user's friends, join of two sets, etc.
     * sorted set
+* Single-thread: still fast because using RAM, also saves the time of context switching
+* Persistence: snapshot, log
